@@ -116,15 +116,18 @@ body {
 .ticket-btn {
     background-color: #e84444;
     border: none;
+    border-radius: 30px;
     color: #fff;
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 15px 40px;
+    font-size: 20px;
     cursor: pointer;
-    transition: transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
 }
 
 .ticket-btn:hover {
     transform: scale(1.05);
+    background-color: #f67b7b;
 }
 
 .footer {
